@@ -3,7 +3,7 @@ import hashlib
 import re
 
 req = requests.session()
-url = "http://docker.hackthebox.eu:31778"
+url = "<URL FROM HTB>"
 
 #GET request
 rget = req.get(url)
